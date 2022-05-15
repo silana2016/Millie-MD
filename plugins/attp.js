@@ -39,7 +39,7 @@ let handler = async (m, { conn, text,plugin, usedPrefix,command, }) => {
      • 𝗘𝗿𝗿𝗼𝗿 𝗮𝘁 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀 𝗘𝗻𝗱
      • 𝗗𝗮𝘁𝗮 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗜𝘀𝘀𝘂𝗲𝘀 `, null, {})
 }}
-handler.help = new Array(2).fill('𝙰𝚃𝚃𝙿').map((v, i) => v + (i + 1) + ' <𝚃𝚎𝚡𝚝>')
+handler.help = new Array(2).fill('𝙰𝚃𝚃𝙿').map((v, i) => v + (i + 1) + ' <اسمك>')
 handler.tags = ['sticker']
 
 handler.command = /^attp[1-2]?$/i
