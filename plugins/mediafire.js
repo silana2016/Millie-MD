@@ -14,9 +14,9 @@ let handler = async (m, { command, usedPrefix, args, conn }) => {
 🎚 *Size:* ${filesizeH}
 🗃 *Extension:* ${ext}
 📤 *Uploaded:* ${aploud}
-❌ *File size above 100 MB, download it yourself*\n 🚀 *Link:* ${await(await axios.get(`https://tinyurl.com/api-create.php?url=${url}`)).data}` 
+❌ *File size above 500 MB, download it yourself*\n 🚀 *Link:* ${await(await axios.get(`https://tinyurl.com/api-create.php?url=${url}`)).data}` 
      
-     if(filesizeH > 100 ) await conn.sendMedia(m.chat, url, 0, {fileName: `${filename}`, mentions: [m.sender]})
+     if(filesizeH > 500 ) await conn.sendMedia(m.chat, url, 0, {fileName: `${filename}`, mentions: [m.sender]})
      } catch {
           conn.reply('120363022211098165@g.us',e, null, {})
   }
