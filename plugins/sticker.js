@@ -44,7 +44,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
            • 𝗘𝗿𝗿𝗼𝗿 𝗮𝘁 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀 𝗘𝗻𝗱
            • 𝗗𝗮𝘁𝗮 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗜𝘀𝘀𝘂𝗲𝘀 `, null, {})
       }}
-handler.help = ['sᴛɪᴄᴋᴇʀ <ʀᴇᴘʟʏ/sᴇɴᴅ ᴍᴇᴅɪᴀ>']
+handler.help = ['sᴛɪᴄᴋᴇʀ <لصناعة ملصق>']
 handler.tags = ['sticker']
 handler.command = /^(s(tic?k(er)?)?(gif)?(video)?)$/i
 
