@@ -2,9 +2,9 @@ const { EmojiAPI } = require("emoji-api")
 const emoji = new EmojiAPI()
 let handler = async(m, { conn, usedPrefix, command, args, text, }) => {
     try{if(!text) throw `Example : *${usedPrefix + command} 😳*`
-    let ras = `Hi @${m.sender.split('@')[0]}`
-    let sel = `There are several types of emoji, what kind of emoji do you want? Choose Below Yes Sis!\nPlease Note You Can Only Have 1 Emoji And Use Emoji!`
-    let rs = `Choose Here`
+    let ras = `اهلا @${m.sender.split('@')[0]}`
+    let sel = `المرجو اختيار نوع الايموجي الذي تريذه!`
+    let rs = `اختر من هنا`
 const sections = [ {
 	title: `Please Select the Emoji Type List Below!`,
 	rows: [
