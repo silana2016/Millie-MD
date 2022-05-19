@@ -98,7 +98,7 @@ let handler = async (m, { conn, text, args,usedPrefix,command,isPrems, isOwner }
      • 𝗘𝗿𝗿𝗼𝗿 𝗮𝘁 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀 𝗘𝗻𝗱
      • 𝗗𝗮𝘁𝗮 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗜𝘀𝘀𝘂𝗲𝘀 `, null, {})
 }}
-handler.help = ['ʏᴛᴍᴘ4     <ثم اتبعه رابط فيديو الذي تود تحميله>']
+handler.help = ['ʏᴛᴍᴘ4     < dir lien dyal video d youtube >']
 handler.tags = ['downloader']
 handler.command = /^yt(v?(ideo)?|mpp?4|v?short)(d(oc(ument)?)?)?$/i
 
