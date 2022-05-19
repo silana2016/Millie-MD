@@ -13,12 +13,7 @@ const os = require('os')
  
 
 
-██████╗░░█████╗░████████╗
-██╔══██╗██╔══██╗╚══██╔══╝
-██████╦╝██║░░██║░░░██║░░░
-██╔══██╗██║░░██║░░░██║░░░
-██████╦╝╚█████╔╝░░░██║░░░
-╚═════╝░░╚════╝░░░░╚═╝░░░
+ila ma3rftix tkhdm lbot sift lia msg f instagram
 ║
 ╚════════════════════════`
 await conn.sendTBI2(m.chat, context.trim(), wm,thumburl,`انستغرامي `, `instagram.com/noureddine_ouafy`, null,null, `جميع الاوامر`, `${ usedPrefix}lst`,m)
