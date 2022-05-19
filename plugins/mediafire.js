@@ -35,7 +35,7 @@ let handler = async (m, { command, usedPrefix, args, conn }) => {
         • 𝗘𝗿𝗿𝗼𝗿 𝗮𝘁 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀 𝗘𝗻𝗱
         • 𝗗𝗮𝘁𝗮 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗜𝘀𝘀𝘂𝗲𝘀 `, null, {})
    }}
-handler.help = ['ᴍᴇᴅɪᴀғɪʀᴇ'].map(v => v + ' <lien dyal dakxi li baghi tilicharji>')
+handler.help = ['ᴍᴇᴅɪᴀғɪʀᴇ'].map(v => v + ' < ʟɪᴇɴ ᴅʏᴀʟ ᴅᴀᴋxɪ ʟɪ ʙᴀɢʜɪ ᴛɪʟɪᴄʜᴀʀᴊɪ ᴍᴀʏғᴏᴛᴄʜ 100 ᴍᴇɢᴀ >')
 handler.tags = ['downloader']
 handler.command = /^(me?d(ia)?f(ire)?)$/i
 
